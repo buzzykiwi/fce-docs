@@ -25,13 +25,13 @@ FCE is provided free of charge. You may use it in three ways:
 3. You will now set up an API *application id* and *secret* on your Fluxx Preprod and/or Production servers. You will need these in Zapier in order to connect to Fluxx. 
    1. Copy and paste the following link in your browser URL bar, then replace ``[[server url]]`` with your actual server URL. The link is: **https://[[server url]]/oauth/applications**
 
-   <p align="center"><img alt="Invite" src="../../img/23.png" height="150px"></p>
-   <p align="center"><img alt="Invite" src="../../img/24.png" height="150px"></p>
-   <p align="center"><img alt="Invite" src="../../img/27.png" height="150px"></p>
+   <p align="center"><img alt="Invite" src="../../img/23.png" width="500px"></p>
+   <p align="center"><img alt="Invite" src="../../img/24.png" width="500px"></p>
+   <p align="center"><img alt="Invite" src="../../img/27.png" width="450px"></p>
 
    2. When you see the following window, click *New Application*
 
-   <p align="center"><img alt="Invite" src="../../img/31.png" height="200px"></p>
+   <p align="center"><img alt="Invite" src="../../img/31.png" width="400"></p>
 
 
    1. Name the application e.g. "Zapier integration"
