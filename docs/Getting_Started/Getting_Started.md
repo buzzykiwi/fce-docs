@@ -49,20 +49,17 @@ FCE is provided free of charge. You may use it in three ways:
 
 > In Zapier, this is called an "Account". Zapier will remember these credentials and will allow you to select this connection when you create/edit any Action, Trigger or Search that uses FCE.
 
-1. If you have not already done so, follow [THIS LINK](https://zapier.com/developer/public-invite/171896/79f0f6177294d5882a4e1eb79aa80fef/) to add FCE to your Zapier account. Click on the "Accept Invite & Build a Zap" button to confirm. You only need to do this once, to gain permanent access to FCE on your Zapier login. 
-
-  <p align="center"><img alt="Invite" src="../../img/14.png" width="500px"></p>
-
-4. In a new browser tab, create a new Zap in Zapier
-5. In the search bar under *1. Trigger*, search for *Fluxx*, then click on Fluxx Community Edition (X.Y.Z).
+1. If you have not already done so, follow [THIS LINK](https://zapier.com/developer/public-invite/171896/79f0f6177294d5882a4e1eb79aa80fef/) to add FCE to your Zapier account. Click on the "Accept Invite & Build a Zap" button to confirm. You only need to do this once, to gain permanent access to FCE on your Zapier login.<p align="center"><img alt="Invite" src="../../img/14.png" width="500px"></p>
+2. In a new browser tab, create a new Zap in Zapier
+3. In the search bar under *1. Trigger*, search for *Fluxx*, then click on Fluxx Community Edition (X.Y.Z).
 
   <p align="center"><img alt="Invite" src="../../img/17.png" width="500px"></p>
 
-6. Choose an Event that will occur in Fluxx and trigger this Zap to start processing. e.g. "Trigger on New/Updated Records", then "Continue"
+4. Choose an Event that will occur in Fluxx and trigger this Zap to start processing. e.g. "Trigger on New/Updated Records", then "Continue"
 
   <p align="center"><img alt="Invite" src="../../img/17a.png" width="500px"></p>
 
-8. The first time you do this, you need to click on "Sign In" next to "Connect Fluxx Community Edition *(nn.nn.nn)*" to connect to your Fluxx instance.
+5. The first time you do this, you need to click on "Sign In" next to "Connect Fluxx Community Edition *(nn.nn.nn)*" to connect to your Fluxx instance.
 
   <p align="center"><img alt="Invite" src="../../img/17b.png" width="500px"></p>
 
@@ -73,7 +70,7 @@ FCE is provided free of charge. You may use it in three ways:
    5. Click "Yes, Continue"
    6. The browser redirects to your chosen Fluxx instance, https://[[server url]]/oauth/authorize?client_id=...
    7. If the browser takes you to the Fluxx login page, complete the login then close the popup window and repeat from step 7i again.
-9. Finish setting up the trigger. The "Trigger on New Records" trigger could use a trigger such as: `SELECT id, full_name FROM User ORDER BY updated_at desc LIMIT 100` to take the latest 100 records, and trigger on any new ones found.
-10. Perform the Test Trigger step to ensure that Zapier is able to retrieve records from Fluxx. Zapier will pull in the latest three individual records and name them SQL Records Search Results [A-C].
+6. Finish setting up the trigger. The "Trigger on New Records" trigger could use a trigger such as: `SELECT id, full_name FROM User ORDER BY updated_at desc LIMIT 100` to take the latest 100 records, and trigger on any new ones found.
+7. Perform the Test Trigger step to ensure that Zapier is able to retrieve records from Fluxx. Zapier will pull in the latest three individual records and name them SQL Records Search Results [A-C].
 
 If the authentication succeeds, congratulations! You are now ready to start automating Fluxx actions.
