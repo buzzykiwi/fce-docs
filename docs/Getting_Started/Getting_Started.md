@@ -59,10 +59,7 @@ FCE is provided free of charge. You may use it in three ways:
 
   <p align="center"><img alt="Invite" src="../../img/17a.png" width="500px"></p>
 
-5. The first time you do this, you need to click on "Sign In" next to "Connect Fluxx Community Edition *(nn.nn.nn)*" to connect to your Fluxx instance.
-
-  <p align="center"><img alt="Invite" src="../../img/17b.png" width="500px"></p>
-
+5. The first time you do this, you need to click on "Sign In" next to "Connect Fluxx Community Edition *(nn.nn.nn)*" to connect to your Fluxx instance.<p align="center"><img alt="Invite" src="../../img/17b.png" width="500px"></p>
    1. A popup window appears, so ensure that popup windows are enabled for Zapier.com in your browser.
    2. In Fluxx Client Domain, enter the full domain name of the Fluxx Preprod or Production site, e.g. **mydomain.preprod.fluxxlabs.com**. Do not include the leading *https://*
    3. In Fluxx Application Id, copy and paste the Application Id you created in step 2
