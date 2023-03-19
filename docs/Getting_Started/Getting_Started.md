@@ -25,20 +25,23 @@ FCE is provided free of charge. You may use it in three ways:
 3. You will now set up an API *application id* and *secret* on your Fluxx Preprod and/or Production servers. You will need these in Zapier in order to connect to Fluxx. 
    1. Copy and paste the following link in your browser URL bar, then replace ``[[server url]]`` with your actual server URL. The link is: **https://[[server url]]/oauth/applications**
 
-   <p align="center"><img alt="Invite" src="../../img/23.png" width="500px"></p>
-   <p align="center"><img alt="Invite" src="../../img/24.png" width="500px"></p>
-   <p align="center"><img alt="Invite" src="../../img/27.png" width="450px"></p>
+   <p align="center"><img alt="Invite" src="../../img/23.png" width="550"></p>
+   <p align="center"><img alt="Invite" src="../../img/24.png" width="550"></p>
+   <p align="center"><img alt="Invite" src="../../img/27.png" width="500"></p>
 
    2. When you see the following window, click *New Application*
 
    <p align="center"><img alt="Invite" src="../../img/31.png" width="400"></p>
 
+   3. You will reach the following panel:
 
-   1. Name the application e.g. "Zapier integration"
-   2. Redirect URI: *copy and paste the following text:* https://zapier.com/dashboard/auth/oauth/return/App171896CLIAPI/
-   3. Scopes: *leave blank*
-   4. Click Submit
-   5. The browser now shows the Application Name, Id, and Secret. Keep this window open as you will need the Id and Secret later.
+   <p align="center"><img alt="Invite" src="../../img/33.png" width="350"></p>
+
+     * Name the application e.g. "Zapier integration"
+     * Redirect URI: *copy and paste the following text:* https://zapier.com/dashboard/auth/oauth/return/App171896CLIAPI/
+     * Scopes: *leave blank*
+     * Click Submit
+   7. The browser now shows the Application Name, Id, and Secret. Keep this window open as you will need the Id and Secret later.
 4. In a new browser tab, create a new Zap in Zapier
 5. In the search bar under *1. Trigger*, search for *Fluxx* 
 6. Choose "Fluxx Community Edition (X.Y.Z)" under "Choose app & event"
