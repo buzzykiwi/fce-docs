@@ -62,10 +62,10 @@ FCE is provided free of charge. You may use it in three ways:
 5. The first time you do this, you need to click on "Sign In" next to "Connect Fluxx Community Edition *(nn.nn.nn)*" to connect to your Fluxx instance.<p align="center"><img alt="Invite" src="../../img/17b.png" width="500px"></p>
    1. A popup window appears, so ensure that popup windows are enabled for Zapier.com in your browser.<p align="center"><img alt="Invite" src="../../img/37.png" width="300px"></p>
    2. In Fluxx Client Domain, enter the full domain name of the Fluxx Preprod or Production site, e.g. **mydomain.preprod.fluxxlabs.com**. Do not include the leading *https://*
-   3. In Fluxx Application Id, copy and paste the Application Id you created in step 2
-   4. In Fluxx Secret, copy and paste the "Secret" you created in step 2
+   3. In Fluxx Application Id, copy and paste the Application Id you created in "Set Up API Keys in Fluxx"
+   4. In Fluxx Secret, copy and paste the "Secret" you created in "Set Up API Keys in Fluxx"
    5. Click "Yes, Continue"
-   6. The browser redirects to your chosen Fluxx instance, https://[[server url]]/oauth/authorize?client_id=...
+   6. The browser redirects to your chosen Fluxx instance, https://[[server url]]/oauth/authorize?client_id=... Click on "Authorize".<p align="center"><img alt="Invite" src="../../img/38.png" width="400px"></p>
    7. If the browser takes you to the Fluxx login page, complete the login then close the popup window and repeat from step 7i again.
 6. Finish setting up the trigger. The "Trigger on New Records" trigger could use a trigger such as: `SELECT id, full_name FROM User ORDER BY updated_at desc LIMIT 100` to take the latest 100 records, and trigger on any new ones found.
 7. Perform the Test Trigger step to ensure that Zapier is able to retrieve records from Fluxx. Zapier will pull in the latest three individual records and name them SQL Records Search Results [A-C].
