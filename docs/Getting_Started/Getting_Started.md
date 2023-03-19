@@ -18,6 +18,9 @@ FCE is provided free of charge. You may use it in three ways:
 ### Setup and Authentication
 
 1. If you have not already done so, follow [the link](https://zapier.com/developer/public-invite/171896/79f0f6177294d5882a4e1eb79aa80fef/) to add FCE to your Zapier account. You only need to do this once.
+
+  <img alt="Invite" src="../../img/14.png" width="108px">
+
 2. Set up an API application id and secret on your Fluxx Preprod and/or Production servers. The link is **https://[[server url]]/oauth/applications**
    1. Name the application e.g. "Zapier integration"
    2. Redirect URI: *copy and paste the following text:* https://zapier.com/dashboard/auth/oauth/return/App171896CLIAPI/
