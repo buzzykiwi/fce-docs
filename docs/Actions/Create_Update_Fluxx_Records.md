@@ -19,18 +19,18 @@ Example of Non-Line Item value: 608. This could be the user id of the user to us
  
 
   * **Step 2 Choose up to 10 fields to populate with Line Item values**
-  * * Input fields appear here once you select a Model Type, above.
-  * * In Input Field Name 1-n, use the drop-down to select a field that you want to populate.
-  * * A new, empty dropdown will appear after you fill in the existing field(s). Use one dropdown per field that you want to populate.
+    * Input fields appear here once you select a Model Type, above.
+    * In Input Field Name 1-n, use the drop-down to select a field that you want to populate.
+    * A new, empty dropdown will appear after you fill in the existing field(s). Use one dropdown per field that you want to populate.
 
   * **Step 3 Populate the fields with Line Item values**
   * **Step 3a Choose a line item of the record id (for editing) or leave blank to create a new record**
-  * * Enter the Line Items for the id of the record to update, or leave blank to create new records instead of updating existing ones.
+    * Enter the Line Items for the id of the record to update, or leave blank to create new records instead of updating existing ones.
   * **Step 3b Choose values for any fields chosen above**
-  * * Select Line Items (or static values) to match up with the list of input fields in Step 2. Only ten Line Item fields & values can be chosen.
+    * Select Line Items (or static values) to match up with the list of input fields in Step 2. Only ten Line Item fields & values can be chosen.
 
   * **Step 4 Choose any extra fields you want to populate (non-line item)** e.g. *updated_by_id*
-  * *  This multiple-select control knows about all Core and Dynamic fields available for the Model Type you specified in Step 1.
+    *  This multiple-select control knows about all Core and Dynamic fields available for the Model Type you specified in Step 1.
     * The list of Core fields is followed by the list of Dynamic fields.
     * Each time you select a field, a new box appears below in order for you to specify another field. In this way, you first need to specify all the fields that you are going to update/create.
     * After you enter each field name, more information about that field appears in a list below the Field List
