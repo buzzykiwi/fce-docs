@@ -43,7 +43,7 @@ FCE is provided free of charge. You may use it in three ways:
      * Click Submit
    4. The browser now shows the Application Name, Id, and Secret. Keep this window/tab open as you will need the Id and Secret later.
 
-   <p align="center"><img alt="Invite" src="../../img/34.png" width="350"></p>
+   <p align="center"><img alt="Invite" src="../../img/34.png" width="430"></p>
 
 4. In a new browser tab, create a new Zap in Zapier
 5. In the search bar under *1. Trigger*, search for *Fluxx* 
