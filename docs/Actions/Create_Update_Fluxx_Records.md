@@ -18,18 +18,18 @@ Example of Non-Line Item value: 608. This could be the user id of the user to us
     * **Model Type** (requred): accepts model types in both styles: grant_request or GrantRequest. You must specify a Model Type before the Field List for Update/Create control will appear.
  
 
-  * **Step 2 Choose up to 10 fields to populate with Line Item values**
+  * **Step 2: Choose up to ten fields to populate with Line Item values**
     * Input fields appear here once you select a Model Type, above.
     * In Input Field Name 1-n, use the drop-down to select a field that you want to populate.
     * A new, empty dropdown will appear after you fill in the existing field(s). Use one dropdown per field that you want to populate.
 
-  * **Step 3 Populate the fields with Line Item values**
+  * **Step 3: Populate the fields with Line Item values**
     * **Step 3a Choose a line item of the record id (for editing) or leave blank to create a new record**
       * Enter the Line Items for the id of the record to update, or leave blank to create new records instead of updating existing ones.
     * **Step 3b Choose values for any fields chosen above**
       * Select Line Items (or static values) to match up with the list of input fields in Step 2. Only ten Line Item fields & values can be chosen.
 
-  * **Step 4 Choose any extra fields you want to populate (non-line item)** e.g. *updated_by_id*
+  * **Step 4: Choose any extra fields you want to populate (non-line item)** e.g. *updated_by_id*
     *  This multiple-select control knows about all Core and Dynamic fields available for the Model Type you specified in Step 1.
     * The list of Core fields is followed by the list of Dynamic fields.
     * Each time you select a field, a new box appears below in order for you to specify another field. In this way, you first need to specify all the fields that you are going to update/create.
@@ -43,12 +43,12 @@ Core field: model_theme_id
 ```
 
 * Input (continued)
-  * **Step 5 Choose values for the extra fields** (required)
+  * **Step 5: Choose values for the extra fields** (required)
     * For each of the fields in the Extra Fields List (above), you need to specify a value. Like the Extra Fields List, each time you fill in a value a new box appears below.
     * You must have the same number of boxes in the Value List as you have boxes in the Extra Fields List. The first box in the Extra Fields List matches with the first box in the Value List, the second box in the Extra Fields List matches with the second box in the Value List, etc.
     * For boolean values, use 1 for true and 0 for false.
     * For foreign keys (most fields that end in "_id"), either hard-code an id, or you may need to perform another search to retrieve the required id. To set the id to null, leave the text field blank.
     * Multi-attribute values (select controls that allow more than one value, and/or percentage) can be specified using a [special syntax](../Special/Multi_Value_Fields.md) that allows you to _remove_ existing selections and/or add selections. It cannot create Model Attribute Values that do not already exist in the system.
 
-  * **Step 6 Choose the fields you want to return to Zapier**
+  * **Step 6: Choose the fields you want to return to Zapier**
     * Enter the list of fields you want to return from the updated or created record. Use one per box. The list of fields depends on which Model Type is chosen in Step 1.
