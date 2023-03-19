@@ -51,24 +51,23 @@ FCE is provided free of charge. You may use it in three ways:
 
 1. If you have not already done so, follow [THIS LINK](https://zapier.com/developer/public-invite/171896/79f0f6177294d5882a4e1eb79aa80fef/) to add FCE to your Zapier account. Click on the "Accept Invite & Build a Zap" button to confirm. You only need to do this once, to gain permanent access to FCE on your Zapier login.<p align="center"><img alt="Invite" src="../../img/14.png" width="500px"></p>
 2. In a new browser tab, create a new Zap in Zapier
-3. In the search bar under *1. Trigger*, search for *Fluxx*, then click on Fluxx Community Edition (X.Y.Z).
-
-  <p align="center"><img alt="Invite" src="../../img/17.png" width="500px"></p>
-
-4. Choose an Event that will occur in Fluxx and trigger this Zap to start processing. e.g. "Trigger on New/Updated Records", then "Continue"
-
-  <p align="center"><img alt="Invite" src="../../img/17a.png" width="500px"></p>
-
+3. In the search bar under *1. Trigger*, search for *Fluxx*, then click on Fluxx Community Edition (X.Y.Z).<p align="center"><img alt="Invite" src="../../img/17.png" width="500px"></p>
+4. Choose an Event that will occur in Fluxx and trigger this Zap to start processing. e.g. "Trigger on New/Updated Records", then "Continue".<p align="center"><img alt="Invite" src="../../img/17a.png" width="500px"></p>
 5. The first time you do this, you need to click on "Sign In" next to "Connect Fluxx Community Edition *(nn.nn.nn)*" to connect to your Fluxx instance.<p align="center"><img alt="Invite" src="../../img/17b.png" width="500px"></p>
    1. A popup window appears, so ensure that popup windows are enabled for Zapier.com in your browser.<p align="center"><img alt="Invite" src="../../img/37.png" width="300px"></p>
    2. In Fluxx Client Domain, enter the full domain name of the Fluxx Preprod or Production site, e.g. **mydomain.preprod.fluxxlabs.com**. Do not include the leading *https://*
    3. In Fluxx Application Id, copy and paste the Application Id you created in "Set Up API Keys in Fluxx"
    4. In Fluxx Secret, copy and paste the "Secret" you created in "Set Up API Keys in Fluxx"
    5. Click "Yes, Continue"
-   6. The browser redirects to your chosen Fluxx instance, https://[[server url]]/oauth/authorize?client_id=... Click on "Authorize".<p align="center"><img alt="Invite" src="../../img/38.png" width="400px"></p>
+   6. The browser redirects to your chosen Fluxx instance, https://[[server url]]/oauth/authorize?client_id=... Click on "Authorize".<p align="center"><img alt="After the redirection to Fluxx" src="../../img/38.png" width="400px"></p>
    7. If the browser takes you to the Fluxx login page, complete the login then close the popup window and repeat from step 5.
-   7. Click on Continue to move on to setting up the trigger.<p align="center"><img alt="Invite" src="../../img/39.png" width="500px"></p>
-6. Finish setting up the trigger. The "Trigger on New Records" trigger could use a trigger such as: `SELECT id, full_name FROM User ORDER BY updated_at desc LIMIT 100` to take the latest 100 records, and trigger on any new ones found.
-7. Perform the Test Trigger step to ensure that Zapier is able to retrieve records from Fluxx. Zapier will pull in the latest three individual records and name them SQL Records Search Results [A-C].
+   7. Click on Continue to move on to setting up the trigger.<p align="center"><img alt="" src="../../img/39.png" width="500px"></p>
 
-If the authentication succeeds, congratulations! You are now ready to start automating Fluxx actions.
+If the authentication succeeds, congratulations! You are now ready to start automating Fluxx triggers and actions.
+
+6. Set up the trigger. The "Trigger on New Records" trigger could use SQL input such as: `SELECT id, full_name, email FROM User ORDER BY updated_at desc LIMIT 5` to take the latest 5 records, and trigger on any new ones found. You only need to set two fields:
+   1. Write the query: <p align="center"><img alt="Example SQL trigger" src="../../img/example-sql-trigger.png" width="500px"></p>
+   2. Set the De-duplication to "1. Disable de-duplication", for testing. If you run this trigger live, you will probably need to clear this field, allowing only brand new records to pass through. Alternatively, you may wish to set it to "2. Allow updated records in addition to new ewcords" to allow updated records to pass through to subsequent actions.<p align="center"><img alt="Disable Deduplication" src="../../img/disable-deduplication.png" width="500px"></p>
+
+7. Perform the Test Trigger step to ensure that Zapier is able to retrieve records from Fluxx. Zapier will pull in the latest **three** individual records and name them SQL Records Search Results [A-C].
+
