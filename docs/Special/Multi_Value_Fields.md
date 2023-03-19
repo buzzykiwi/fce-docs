@@ -2,7 +2,7 @@
 
 > When using the **Create/Update Fluxx Record** Action, use a special syntax to add or remove values and/or percentages from multi-valued fields for records i.e. Select-Transfer controls, Checkboxes, or Hierarchical Dropdowns.
 
-> FCE can also alter the list of available options itself, so you can change the list of options that appear in a dropdown. This is done with the **Manage Items in SELECT Lists** Action *[documentation](../Special/Manage_Items_in_Select_Lists.md)*
+> FCE can also alter the list of available options itself, so you can change the list of options that appear in a dropdown. This is done with the **Manage Items in SELECT Lists** Action *[documentation](../Actions/Manage_Items_in_Select_Lists.md)*
 
 ### About Multi-Value Fields
 * Each Select-Transfer control, set of Checkboxes, and Hierarchical Dropdown control relates to specific field name on a model. Every such field has an independent set of possible values.
