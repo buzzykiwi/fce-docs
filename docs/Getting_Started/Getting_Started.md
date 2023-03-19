@@ -66,7 +66,8 @@ FCE is provided free of charge. You may use it in three ways:
    4. In Fluxx Secret, copy and paste the "Secret" you created in "Set Up API Keys in Fluxx"
    5. Click "Yes, Continue"
    6. The browser redirects to your chosen Fluxx instance, https://[[server url]]/oauth/authorize?client_id=... Click on "Authorize".<p align="center"><img alt="Invite" src="../../img/38.png" width="400px"></p>
-   7. If the browser takes you to the Fluxx login page, complete the login then close the popup window and repeat from step 7i again.
+   7. If the browser takes you to the Fluxx login page, complete the login then close the popup window and repeat from step 5.
+   7. Click on Continue to move on to setting up the trigger.<p align="center"><img alt="Invite" src="../../img/39.png" width="500px"></p>
 6. Finish setting up the trigger. The "Trigger on New Records" trigger could use a trigger such as: `SELECT id, full_name FROM User ORDER BY updated_at desc LIMIT 100` to take the latest 100 records, and trigger on any new ones found.
 7. Perform the Test Trigger step to ensure that Zapier is able to retrieve records from Fluxx. Zapier will pull in the latest three individual records and name them SQL Records Search Results [A-C].
 
