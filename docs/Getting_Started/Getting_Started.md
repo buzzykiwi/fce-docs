@@ -41,7 +41,10 @@ FCE is provided free of charge. You may use it in three ways:
      * Redirect URI: *copy and paste the following text:* https://zapier.com/dashboard/auth/oauth/return/App171896CLIAPI/
      * Scopes: *leave blank*
      * Click Submit
-   7. The browser now shows the Application Name, Id, and Secret. Keep this window open as you will need the Id and Secret later.
+   4. The browser now shows the Application Name, Id, and Secret. Keep this window/tab open as you will need the Id and Secret later.
+
+   <p align="center"><img alt="Invite" src="../../img/34.png" width="350"></p>
+
 4. In a new browser tab, create a new Zap in Zapier
 5. In the search bar under *1. Trigger*, search for *Fluxx* 
 6. Choose "Fluxx Community Edition (X.Y.Z)" under "Choose app & event"
