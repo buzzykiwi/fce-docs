@@ -15,14 +15,13 @@ FCE is provided free of charge. You may use it in three ways:
 - Developers may wish to download the source from Github, make modifications, and use it as a private integration. See the Zapier CLI documentation for how to set up a developer environment for a custom integration.
 - You may use the software in any other way consistent with the MIT licence.
 
-### Setup and Authentication
+### Set Up API Keys in Fluxx
 
-1. If you have not already done so, follow [THIS LINK](https://zapier.com/developer/public-invite/171896/79f0f6177294d5882a4e1eb79aa80fef/) to add FCE to your Zapier account. Click on the "Accept Invite & Build a Zap" button to confirm. You only need to do this once, to gain permanent access to FCE on that Zapier account. 
+> Before you can connect to Fluxx from Zapier, you need to create a new pair of API keys in Fluxx. These are called the Application Id, and the Secret. You need to have Admin access in Fluxx to create and access the API keys.
 
-  <p align="center"><img alt="Invite" src="../../img/14.png" width="500px"></p>
 
-2. Log in to your desired Fluxx site. You must use an account that has _Admin_ access. It is important that you do this _before_ step 3.
-3. You will now set up an API *application id* and *secret* on your Fluxx Preprod and/or Production servers. You will need these in Zapier in order to connect to Fluxx. 
+1. Log in to your desired Fluxx site. You must use an account that has _Admin_ access. It is important that you do this _before_ step 3.
+2. You will now set up an API *application id* and *secret* on your Fluxx Preprod and/or Production servers. You will need these in Zapier in order to connect to Fluxx. 
    1. Copy and paste the following link in your browser URL bar, then replace ``[[server url]]`` with your actual server URL. The link is: **https://[[server url]]/oauth/applications**
 
    <p align="center"><img alt="Invite" src="../../img/23.png" width="550"></p>
@@ -41,15 +40,32 @@ FCE is provided free of charge. You may use it in three ways:
      * Redirect URI: *copy and paste the following text:* https://zapier.com/dashboard/auth/oauth/return/App171896CLIAPI/
      * Scopes: *leave blank*
      * Click Submit
-   4. The browser now shows the Application Name, Id, and Secret. Keep this window/tab open as you will need the Id and Secret later.
+   4. The browser now shows the Application Name, Id, and Secret. Keep this window/tab open as you will need the Id and Secret (partially obscured, and highlighted in green below), later.
 
    <p align="center"><img alt="Invite" src="../../img/34.png" width="430"></p>
 
+
+### Add the API Keys from Fluxx to Zapier
+
+> In Zapier, this is called an "Account". Zapier will remember these credentials and will allow you to select this connection when you create/edit any Action, Trigger or Search that uses FCE.
+
+1. If you have not already done so, follow [THIS LINK](https://zapier.com/developer/public-invite/171896/79f0f6177294d5882a4e1eb79aa80fef/) to add FCE to your Zapier account. Click on the "Accept Invite & Build a Zap" button to confirm. You only need to do this once, to gain permanent access to FCE on your Zapier login. 
+
+  <p align="center"><img alt="Invite" src="../../img/14.png" width="500px"></p>
+
 4. In a new browser tab, create a new Zap in Zapier
-5. In the search bar under *1. Trigger*, search for *Fluxx* 
-6. Choose "Fluxx Community Edition (X.Y.Z)" under "Choose app & event"
-7. Choose an Event that will occur in Fluxx and trigger this Zap to start processing. e.g. "Trigger on New Records", then "Continue"
+5. In the search bar under *1. Trigger*, search for *Fluxx*, then click on Fluxx Community Edition (X.Y.Z).
+
+  <p align="center"><img alt="Invite" src="../../img/17.png" width="500px"></p>
+
+6. Choose an Event that will occur in Fluxx and trigger this Zap to start processing. e.g. "Trigger on New/Edited Records", then "Continue"
+
+  <p align="center"><img alt="Invite" src="../../img/17a.png" width="500px"></p>
+
 8. The first time you do this, you need to click on "Sign In" next to "Connect Fluxx Community Edition *(nn.nn.nn)*" to connect to your Fluxx instance.
+
+
+
    1. A popup window appears, so ensure that popup windows are enabled for Zapier.com in your browser.
    2. In Fluxx Client Domain, enter the full domain name of the Fluxx Preprod or Production site, e.g. **mydomain.preprod.fluxxlabs.com**. Do not include the leading *https://*
    3. In Fluxx Application Id, copy and paste the Application Id you created in step 2
