@@ -2,7 +2,7 @@
 
 > FCE can alter the list of available options in Select-transfer controls, Checkboxes, Dropdowns, or Hierarchical Dropdowns. This is done with the **Manage Items in SELECT Lists** Action.
 
-> When using the **Create/Update Fluxx Record** Action, you can also use a special syntax to add or remove options and/or percentages from multi-valued fields for the records themselves i.e. Select-Transfer controls, Checkboxes, or Hierarchical Dropdowns  *[documentation](./MULTI_VALUE_FIELDS.md)*
+> When using the **Create/Update Fluxx Record** Action, you can also use a special syntax to add or remove options and/or percentages from multi-valued fields for the records themselves i.e. Select-Transfer controls, Checkboxes, or Hierarchical Dropdowns  *[documentation](../Special/Multi_Value_Fields.md)*
 
 ## Zapier Action: Manage Items in SELECT Lists (With Line Item Support)
 
