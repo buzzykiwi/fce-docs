@@ -2,7 +2,7 @@
 
 > This action allows you retrieve a Fluxx user by their full name. It returns their user id.
 
-<p align="center"><img alt="Search for User" src="../../img/search_for_user.png" width="448px"></p>
+<p align="center"><img alt="Search for User" src="../../img/search-for-user.png" width="448px"></p>
 
 * **Input**
   * **Name**: Enter the full name of the user you want to search for. The name can be provided statically or may be the result of a previous trigger or action.
