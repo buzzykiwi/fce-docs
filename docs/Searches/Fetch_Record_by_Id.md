@@ -17,7 +17,7 @@
     * Once you have chosen a Model Type, an info panel appears below the Model Type with a link to the API documentation on your Fluxx site for that model.
 
   * **Fields to Retrieve (required)**: Enter a list of field names, one per row, to retrieve for the requested model. Because you indicated the model type above, the dropdowns contain all the core and dynamic fields for that model type. You may also include fields on related models, max 1 level deep, by using Custom text e.g. program_organization_id.name For related fields, the name of the field before the dot will usually end with _id.
-    * Once you have chosen at least one field, an info panel appears below the list of fields with more information about that field.
+    * Once you have chosen at least one field, an info panel appears below the list of fields with more information about each field to be returned.
 
   * **Should this step be considered a "success" when nothing is found?**: Sometimes it matters if the requested record exists, and sometimes it doesn't. Choosing "No" causes all subsequent steps to be skipped when nothing is found.
 
