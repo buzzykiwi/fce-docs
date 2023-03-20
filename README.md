@@ -36,3 +36,15 @@ Fluxx Community Edition (FCE) is a Zapier integration that allows Zapier to conn
 - FAQ
     * [FAQ](docs/Faqs/Faqs.md)
 
+
+### Support
+
+* Please don't contact Fluxx Support for help using this software. Fluxx didn't create it.
+* Because this is a Private Integration, Zapier Support can provide only limited assistance. Of course, if your Zap interfaces with other, public applications, Zapier support will be happy to assist.
+
+
+Support options:
+
+1. Consider engaging with a consultant. There are Fluxx experts at [1892 Consulting](https://1892consulting.com), [Grantbook](https://www.grantbook.org), and [Brandon IT Consulting](stephen@brandonitconsulting.co.uk) who have experience with Zapier.
+2. Post on the [Fluxx Community Forum](https://community.fluxx.io/home)
+3. Contact the developer: Stephen Brandon, stephen@brandonitconsulting.co.uk
