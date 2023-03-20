@@ -7,7 +7,7 @@ As the search may return more than one item, only the _first_ item returned will
 * to use the most recent match: `ORDER BY updated_at desc LIMIT 1`
 * to use the largest grant request: `ORDER BY amount_requested desc LIMIT 1`
 
-<p align="center"><img alt="Search for a Single Fluxx Record" src="../../img/search-single-fluxx-record.png" width="447px"></p>
+<p align="center"><img alt="Search for a Single Fluxx Record" src="../../img/search-single-fluxx-record.png" width="448px"></p>
 
 * **Input**
   * **SQL input**: see [_SQL Support_](../Special/SQL_Support.md) e.g. `SELECT id, account_name, account_number FROM BankAccount WHERE owner_organization_id = [[ id from previous step ]] AND active = 1 ORDER BY updated_at desc LIMIT 1`
