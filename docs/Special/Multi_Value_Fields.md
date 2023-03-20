@@ -48,7 +48,7 @@
 ```
 
 * "Remove" instructions are performed before "add" instructions, irrespective of what order you put them in.
-* A delimiter at the start of each line is required, but it does not have to be "#", as long as the same delimter is used during the rest of that line. You may wish to use a different delimiter if one of your options contains the character "#".
+* A delimiter at the start of each line is required, but it does not have to be "#", as long as the same delimiter is used during the rest of that line. You may wish to use a different delimiter if one of your options contains the character "#".
 * If your values are hierarchical, specify the full path to the value you want to add/delete, using the delimiter to separate the path portions.
 
 e.g. let's say you have this hierarchy of options for a multi-value list on a particular field in Fluxx:
