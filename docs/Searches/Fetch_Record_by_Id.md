@@ -1,12 +1,14 @@
 ### Fetch Record by Id
 
-This action allows you retrieve a Fluxx record if you know its model type and id. If you don't have the id and need to search via other fields (e.g. name, first_name, last_name etc), you should use the "Search for a Single Fluxx Record" Action instead of this one, so that you can use filters for your search criteria.
+> This action allows you retrieve a Fluxx record if you know its model type and id. If you don't have the id and need to search via other fields (e.g. name, first_name, last_name etc), you should use the [Search for a Single Fluxx Record](./Search_for_Single_Fluxx_Record.md) Action instead of this one, in order to use filters for your search criteria.
+
+<p align="center"><img alt="After the redirection to Fluxx" src="../../img/fetch-record-by-id.png" width="447px"></p>
 
 * **Input**
   * **Record Id**: The id of the record. You can add this as a static number, or use an id result from a previous action or search.
   * **Model Group**: Use this dropdown to filter the list of model types that appears in the next control.
     * "Basic" gives Grant Request, Initiative, Model Document, Organization, Program, Project, Request Report, Request Transaction, Sub Initiative, Sub Program, and User.
-    * "Intermediate" adds a set of less-frequently user models.
+    * "Intermediate" adds a set of less-frequently used models.
     * "Dynamic Models Only" lists any dynamic models you may have created.
     * "All" lists all core models and all dynamic models.
   * **Model Type**: Select the model of the record you want to retrieve.
