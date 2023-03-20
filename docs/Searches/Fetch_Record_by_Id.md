@@ -2,7 +2,7 @@
 
 > This action allows you retrieve a Fluxx record if you know its model type and id. If you don't have the id and need to search via other fields (e.g. name, first_name, last_name etc), you should use the [Search for a Single Fluxx Record](./Search_for_Single_Fluxx_Record.md) Action instead of this one, in order to use filters for your search criteria.
 
-<p align="center"><img alt="After the redirection to Fluxx" src="../../img/fetch-record-by-id.png" width="447px"></p>
+<p align="center"><img alt="Fetch Record by Id" src="../../img/fetch-record-by-id.png" width="447px"></p>
 
 * **Input**
   * **Record Id**: The id of the record. You can add this as a static number, or use an id result from a previous action or search.
