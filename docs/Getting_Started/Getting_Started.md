@@ -1,5 +1,5 @@
 ## Getting Started
-> FCE is third-party, open source software. As it is not provided or endorsed by Fluxx, the Zapier integration is a Private rather than Public integration. i.e. you will not find FCE in Zapier's standard list of integrations. To use it, follow [these instructions](#add-the-api-keys-from-fluxx-to-zapier) to add it to your Zapier account.
+> FCE is third-party, open source software. As it is not provided or endorsed by Fluxx, the Zapier integration is a Private rather than Public integration. i.e. you will not find FCE in Zapier's standard list of integrations. To gain permanent access, follow [these instructions](#add-the-api-keys-from-fluxx-to-zapier) to add it to your Zapier account.
 
 
 ### Public vs Private Zapier Integrations
