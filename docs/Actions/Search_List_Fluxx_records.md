@@ -6,7 +6,7 @@ The list of items is returned as a Zapier "Line Item" set. You can use the "Loop
 
 * **Input**
   * **SQL input**: see [_SQL Support_](../Special/SQL_Support.md) e.g. `SELECT id, name, nz_charities_number FROM Organization WHERE postal_code = "4500"`
-    * Don't forget that you can sub values from previous steps into the SQL string e.g. ... `WHERE postal_code = [[1. Postal Code: 4500]]`
+    * Don't forget that you can sub values from previous steps into the SQL string e.g. ... `WHERE postal_code = "[[1. Postal Code: 4500]]"`
 * **Output**
 ```
 results
@@ -56,13 +56,13 @@ results
   2:
 ```
 
-**Note about Output from Select Fields**
+** Output from _Select_ Fields**
 
 Values from Select fields are output from FCE actions in several different formats for maximum flexibility.
 
 1. **Single Select** controls are output in an object in an array of size 1, with their MAV id, value and description.
 
-e.g. as viewed in the Test output from a Zapier Action:
+e.g. Viewed in the Test output from a Zapier Action:
 
 ```
 reach:
@@ -72,7 +72,7 @@ reach:
     val: Community Deprivation
 ```
 
-e.g. as viewed in the input to subsequent actions:
+e.g. Viewed in the input to subsequent actions:
 
 ```
 Fields Reach Id: 10097888
@@ -81,13 +81,13 @@ Fields Reach Desc: Community Deprivation
 ```
 
 2. **Multi-value Select** controls (e.g. checklists, Select-Transfers, or Hierarchical Dropdowns) are output in the following ways:
-     * as the field name appended with ".add_list": in the format used by the Create/Update Fluxx Record MAV format (see [here](../Special/Multi_Value_Fields.md)). This allows you to feed the output of a single or multi item select into the Create/Update Fluxx Record, and allow it to recreate the same Model Attribute Values for a given field.
+     * As the field name appended with ".add_list": in the format used by the Create/Update Fluxx Record MAV format (see [here](../Special/Multi_Value_Fields.md)). This allows you to feed the output of a single or multi item select into the Create/Update Fluxx Record, and allow it to recreate the same Model Attribute Values for a given field.
        * e.g. ```§add§New Plymouth District§Blagdon | Moturoa | Lynmouth (8)```
-     * as the field name appended with ".add_list_by_id": similar to (b) except uses the MAV id.
+     * As the field name appended with ".add_list_by_id": similar to (b) except uses the MAV id.
        * e.g. ```§add_by_id§10097725```
-     * as Zapier Line Items, with the field name appended with ".line_items": an array of objects, each containing the id, percent, path to the final value (delimited with the § character), value and description of the final value.
+     * As Zapier Line Items, with the field name appended with ".line_items": an array of objects, each containing the id, percent, path to the final value (delimited with the § character), value and description of the final value.
 
-e.g. as viewed in the Test output from a Zapier Action:
+e.g. Viewed in the Test output from a Zapier Action:
 ```
 communities.add_list:
     §add/60§California§Los Angeles
@@ -110,7 +110,7 @@ communities.line_items:
     desc: San Francisco
 ```
 
-e.g. as viewed in the input to subsequent actions:
+e.g. Viewed in the input to subsequent actions:
 
 ```
 Fields Communities Add List: §add/60§California§Los Angeles\n§add/40§California§San Francisco
