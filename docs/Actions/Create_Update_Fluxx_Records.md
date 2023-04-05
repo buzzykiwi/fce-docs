@@ -22,7 +22,7 @@ Example of Non-Line Item value: 608. This could be the user id of the user to us
     * **Model Group** (required): As there are so many model types to choose from, they have been broken down into four lists: Basic, Intermediate, Dynamic Models only, and All. This filters the Model Types shown in the Model Type field. "Basic" contains Document, Grant Request, Initiative, Organization, Program, Project, Request Report, Request Transaction, Sub Initiative, Sub Program, and User.
     * **Model Type** (requred): accepts model types in both styles: grant_request or GrantRequest. You must specify a Model Type before the Field List for Update/Create control will appear.
  
- <p align="center"><img alt="Select Model Group and Type" src="../../img/fields_to_populate_with_line_items.png" width="447px" height="337px"></p>
+ <p align="center"><img alt="Fields to Populate" src="../../img/fields_to_populate_with_line_items.png" width="447px" height="337px"></p>
 
   * **Step 2: Choose up to ten fields to populate with Line Item values**
     * Input fields appear here once you select a Model Type, above.
@@ -30,6 +30,9 @@ Example of Non-Line Item value: 608. This could be the user id of the user to us
     * A new, empty dropdown will appear after you fill in the existing field(s). Use one dropdown per field that you want to populate.
 
   * **Step 3: Populate the fields with Line Item values**
+
+ <p align="center"><img alt="Record Id (or blank to create new record)" src="../../img/line_item_record_id.png" width="450px" height="153px"></p>
+
     * **Step 3a: Choose a line item of the record id (for editing) or leave blank to create a new record**
       * Enter the Line Items for the id of the record to update, or leave blank to create new records instead of updating existing ones.
     * **Step 3b: Choose values for any fields chosen above**
