@@ -27,7 +27,7 @@ Example of Non-Line Item value: 608. This could be the user id of the user to us
  
   <p align="center"><img alt="Select Model Group and Type" src="../../img/fields_to_populate_with_line_items.png" width="447px" height="337px"></p>
 
-   * Input fields appear here once you select a Model Type, above.
+    * Input fields appear here once you select a Model Type, above.
     * In Input Field Name 1-n, use the drop-down to select a field that you want to populate.
     * A new, empty dropdown will appear after you fill in the existing field(s). Use one dropdown per field that you want to populate.
 
