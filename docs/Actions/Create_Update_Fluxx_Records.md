@@ -32,6 +32,7 @@ Example of Non-Line Item value: 608. This could be the user id of the user to us
   * **Step 3: Populate the fields with Line Item values**
     * **Step 3a: Choose a line item of the record id (for editing) or leave blank to create a new record**
      <p align="center"><img alt="Record Id (or blank to create new record)" src="../../img/line_item_record_id.png" width="447px" height="153px"></p>
+      
       * Enter the Line Items for the id of the record to update, or leave blank to create new records instead of updating existing ones.
     * **Step 3b: Choose values for any fields chosen above**
       * Select Line Items (or static values) to match up with the list of input fields in Step 2. Only ten Line Item fields & values can be chosen.
