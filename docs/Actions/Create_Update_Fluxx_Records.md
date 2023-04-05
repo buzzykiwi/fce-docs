@@ -1,5 +1,7 @@
 ### Create/Update Fluxx Records (Line Item Support)
 
+<p align="center"><img alt="Create/Update FLuxx Records with Line Item Support" src="../../img/create_update_records_line_items.png" width="597px" height="398px"></p>
+
 This Action creates or updates a set of Fluxx records based on parameters provided in Line Items from a previous step. If Ids are provided, the relevant records are updated. If not, new records are created.
 
 Operating with Line Items has a significant advantage over using the non-line-item version: only one Zapier task is used to process the entire list, instead of one task per list item.
