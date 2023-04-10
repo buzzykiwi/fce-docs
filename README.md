@@ -10,7 +10,6 @@ Fluxx Community Edition (FCE) is a Zapier integration that allows Zapier to conn
 
 ## Table of Contents
 
-
 - [Getting Started](docs/Getting_Started/Getting_Started.md)
 - Triggers
 	* [Trigger on Queued Records](docs/Triggers/Trigger_on_Queued_Records.md)
@@ -43,7 +42,7 @@ Fluxx Community Edition (FCE) is a Zapier integration that allows Zapier to conn
 * Because this is a Private Integration, Zapier Support can provide only limited assistance. Of course, if your Zap interfaces with other, public applications, Zapier support will be happy to assist.
 
 
-Support options:
+__Support options:__
 
 1. Consider engaging with a consultant. There are Fluxx experts at [1892 Consulting](https://1892consulting.com), [Grantbook](https://www.grantbook.org), and <a href="mailto:stephen@brandonitconsulting.co.uk">Brandon IT Consulting</a> who have experience with Zapier.
 2. Post on the [Fluxx Community Forum](https://community.fluxx.io/home)
